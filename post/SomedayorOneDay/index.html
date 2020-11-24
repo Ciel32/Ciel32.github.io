@@ -1,0 +1,189 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>📷Someday or One Day | Ciel&#39;s Album</title>
+<link rel="shortcut icon" href="https://Ciel32.github.io/favicon.ico?v=1606223006539">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://Ciel32.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="📷Someday or One Day | Ciel&#39;s Album - Atom Feed" href="https://Ciel32.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="很少看台剧
+但最近被&lt;想见你&gt;吸引
+
+这让我想起2017年
+在台湾度过了1/4的时光
+从夏天到冬天
+
+
+
+
+
+
+
+
+..." />
+    <meta name="keywords" content="LiveLife" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://Ciel32.github.io">
+  <img class="avatar" src="https://Ciel32.github.io/images/avatar.png?v=1606223006539" alt="">
+  </a>
+  <h1 class="site-title">
+    Ciel&#39;s Album
+  </h1>
+  <p class="site-description">
+    I know it was a hard day, but you did well :)
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              📷Someday or One Day
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-02-04
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+                <a href="https://Ciel32.github.io/tag/F5gtDWSW9/" class="post-tag">
+                  # LiveLife
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://Ciel32.github.io/post-images/SomedayorOneDay.JPG" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>很少看台剧<br>
+但最近被&lt;想见你&gt;吸引</p>
+<!-- more -->
+<p>这让我想起2017年<br>
+在台湾度过了1/4的时光<br>
+从夏天到冬天</p>
+<figure data-type="image" tabindex="1"><img src="https://Ciel32.github.io/post-images/1606221814056.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://Ciel32.github.io/post-images/1606221893339.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://Ciel32.github.io/post-images/1606221796091.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://Ciel32.github.io/post-images/1606221803099.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://Ciel32.github.io/post-images/1606221808624.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://Ciel32.github.io/post-images/1606221783793.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://Ciel32.github.io/post-images/1606221790899.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://Ciel32.github.io/post-images/1606221776399.JPG" alt="" loading="lazy"></figure>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  ©Ciel's Album
+  <a class="rss" href="https://Ciel32.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

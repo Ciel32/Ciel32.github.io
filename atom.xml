@@ -2,56 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Ciel32.github.io</id>
     <title>Ciel&apos;s Album</title>
-    <updated>2020-11-24T11:55:01.919Z</updated>
+    <updated>2020-11-24T13:04:45.940Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Ciel32.github.io"/>
     <link rel="self" href="https://Ciel32.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>I know it was a hard day, but you did well :)</subtitle>
     <logo>https://Ciel32.github.io/images/avatar.png</logo>
     <icon>https://Ciel32.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Ciel&apos;s Album</rights>
     <entry>
-        <title type="html"><![CDATA[<I Told Sunset About You> EP5 x MV截修]]></title>
-        <id>https://Ciel32.github.io/post/yi-ni-de-xin-quan-shi-wo-de-ai-ep5-x-mv-jie-xiu/</id>
-        <link href="https://Ciel32.github.io/post/yi-ni-de-xin-quan-shi-wo-de-ai-ep5-x-mv-jie-xiu/">
+        <title type="html"><![CDATA[🎬<I Told Sunset About You> EP5 x MV截修]]></title>
+        <id>https://Ciel32.github.io/post/IToldSunsetAboutYouEp5/</id>
+        <link href="https://Ciel32.github.io/post/IToldSunsetAboutYouEp5/">
         </link>
         <updated>2020-11-24T09:48:54.000Z</updated>
-        <content type="html"><![CDATA[<ol>
-<li></li>
-</ol>
-<figure data-type="image" tabindex="1"><img src="https://Ciel32.github.io/post-images/1606211382123.png" alt="" loading="lazy"></figure>
+        <summary type="html"><![CDATA[<p>补习班旁祠堂的铁门敞开<br>
+蓬贴海角的夕阳穿过云层<br>
+原来斗鱼就算离开那片海域也可以呼吸</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>补习班旁祠堂的铁门敞开<br>
+蓬贴海角的夕阳穿过云层<br>
+原来斗鱼就算离开那片海域也可以呼吸</p>
+<!-- more -->
+<p>🎼 𝐼 𝑡𝑜𝑙𝑑 𝑠𝑢𝑛𝑠𝑒𝑡 𝑎𝑏𝑜𝑢𝑡 𝑦𝑜𝑢.</p>
+<p>💿𝐸𝑝𝑖𝑠𝑜𝑑𝑒 𝐹𝑖𝑣𝑒</p>
+<figure data-type="image" tabindex="1"><img src="https://Ciel32.github.io/post-images/1606220084084.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://Ciel32.github.io/post-images/1606220095515.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://Ciel32.github.io/post-images/1606220238803.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://Ciel32.github.io/post-images/1606220149533.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://Ciel32.github.io/post-images/1606220157595.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://Ciel32.github.io/post-images/1606220163777.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://Ciel32.github.io/post-images/1606220170851.png" alt="" loading="lazy"></figure>
+<p>💿𝑀𝑉</p>
+<figure data-type="image" tabindex="8"><img src="https://Ciel32.github.io/post-images/1606220232507.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://Ciel32.github.io/post-images/1606220222025.png" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://Ciel32.github.io/post/hello-gridea/</id>
-        <link href="https://Ciel32.github.io/post/hello-gridea/">
+        <title type="html"><![CDATA[🎨九月绘画练习]]></title>
+        <id>https://Ciel32.github.io/post/20sSeptPaintings/</id>
+        <link href="https://Ciel32.github.io/post/20sSeptPaintings/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <updated>2020-09-30T12:21:26.000Z</updated>
+        <summary type="html"><![CDATA[<p>开始学着用procreate画画<br>
+从纸面转到平板到感觉真的很奇妙</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+        <content type="html"><![CDATA[<p>开始学着用procreate画画<br>
+从纸面转到平板到感觉真的很奇妙</p>
 <!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+<p>临摹@夏幺官儿</p>
+<p><img src="https://Ciel32.github.io/post-images/1606220746234.png" alt="" loading="lazy"><br>
+A Cute Girl👆</p>
+<p><img src="https://Ciel32.github.io/post-images/1606220772650.png" alt="" loading="lazy"><br>
+A Cute Boy👆</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📷Someday or One Day]]></title>
+        <id>https://Ciel32.github.io/post/SomedayorOneDay/</id>
+        <link href="https://Ciel32.github.io/post/SomedayorOneDay/">
+        </link>
+        <updated>2020-02-04T12:28:16.000Z</updated>
+        <summary type="html"><![CDATA[<p>很少看台剧<br>
+但最近被&lt;想见你&gt;吸引</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>很少看台剧<br>
+但最近被&lt;想见你&gt;吸引</p>
+<!-- more -->
+<p>这让我想起2017年<br>
+在台湾度过了1/4的时光<br>
+从夏天到冬天</p>
+<figure data-type="image" tabindex="1"><img src="https://Ciel32.github.io/post-images/1606221814056.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://Ciel32.github.io/post-images/1606221893339.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://Ciel32.github.io/post-images/1606221796091.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://Ciel32.github.io/post-images/1606221803099.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://Ciel32.github.io/post-images/1606221808624.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://Ciel32.github.io/post-images/1606221783793.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://Ciel32.github.io/post-images/1606221790899.JPG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://Ciel32.github.io/post-images/1606221776399.JPG" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
