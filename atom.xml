@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Ciel32.github.io</id>
     <title>Ciel&apos;s Album</title>
-    <updated>2020-11-24T13:47:41.841Z</updated>
+    <updated>2020-12-17T10:35:03.110Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Ciel32.github.io"/>
     <link rel="self" href="https://Ciel32.github.io/atom.xml"/>
@@ -10,6 +10,224 @@
     <logo>https://Ciel32.github.io/images/avatar.png</logo>
     <icon>https://Ciel32.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Ciel&apos;s Album</rights>
+    <entry>
+        <title type="html"><![CDATA[💻闲鱼功能结构梳理]]></title>
+        <id>https://Ciel32.github.io/post/xian-yu-gong-neng-jie-gou-shu-li/</id>
+        <link href="https://Ciel32.github.io/post/xian-yu-gong-neng-jie-gou-shu-li/">
+        </link>
+        <updated>2020-12-06T09:47:29.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="一-产品功能结构">一. 产品功能结构</h3>
+<figure data-type="image" tabindex="1"><img src="https://Ciel32.github.io/post-images/1608198544024.png" alt="" loading="lazy"></figure>
+<h3 id="二-产品近1年的关键功能迭代路径">二. 产品近1年的关键功能迭代路径</h3>
+<p><img src="https://Ciel32.github.io/post-images/1608198551121.png" alt="" loading="lazy"><br>
+根据闲鱼近一年的迭代路径发现：</p>
+<ol>
+<li>“会玩”取代了”鱼塘“，更加注重社区化的发展。</li>
+<li>对UI界面进行了大改版，相比改版前更加清晰简洁。</li>
+<li>对用户发布商品体验十分重视，通过选择标签、关联同款等方式持续优化体验。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[💻哔哩哔哩收藏功能分析]]></title>
+        <id>https://Ciel32.github.io/post/bi-li-bi-li-shou-cang-gong-neng-fen-xi/</id>
+        <link href="https://Ciel32.github.io/post/bi-li-bi-li-shou-cang-gong-neng-fen-xi/">
+        </link>
+        <updated>2020-12-03T09:40:51.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="一-迭代的产品和对应产品功能">一、迭代的产品和对应产品功能</h3>
+<p>哔哩哔哩-收藏功能</p>
+<h3 id="二-产品功能页面截图">二、产品功能页面截图</h3>
+<ul>
+<li>
+<p>选择收藏夹页面<br>
+<img src="https://Ciel32.github.io/post-images/1608198222158.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>填写收藏夹信息页面<br>
+<img src="https://Ciel32.github.io/post-images/1608198232718.png" alt="" loading="lazy"></p>
+</li>
+</ul>
+<h3 id="三-产品功能的现状和逻辑">三、产品功能的现状和逻辑</h3>
+<ol>
+<li>考虑用户：用户想要快速的将自己感兴趣的视频整理成册。</li>
+<li>考虑流程：<br>
+<img src="https://Ciel32.github.io/post-images/1608198238456.png" alt="" loading="lazy"></li>
+</ol>
+<h3 id="四-产品功能目前存在的问题">四、产品功能目前存在的问题</h3>
+<ol>
+<li>现象：</li>
+</ol>
+<ul>
+<li>当收藏夹数量较大时，移动端用户寻找特定收藏夹困难。</li>
+<li>用户不能选择与特定好友共享或共同维护同一个收藏夹。</li>
+</ul>
+<ol start="2">
+<li>原因：</li>
+</ol>
+<ul>
+<li>用户创建的收藏夹仅支持按照创建时间倒序排列一种排列方式。</li>
+<li>用户创建收藏夹时，只有完全公开和完全私密两种权限选择。</li>
+</ul>
+<ol start="3">
+<li>影响程度：</li>
+</ol>
+<ul>
+<li>极大增加了用户收藏视频的时间，并可能导致用户放弃收藏。</li>
+<li>对用户正常收藏视频影响较小，属于锦上添花的功能。</li>
+</ul>
+<h3 id="五-解决方案">五、解决方案</h3>
+<ol>
+<li>在选择收藏夹页面增加搜索收藏夹功能，或增加收藏夹按字母排序选项。</li>
+<li>在填写收藏夹信息页面增加选择共享收藏夹好友的选项，并新增与好友共同管理收藏夹的功能。</li>
+</ol>
+<h3 id="六-评判最终结果">六、评判最终结果</h3>
+<ol>
+<li>用户能更加方便的收藏归类视频，减少用户收藏视频耗时。</li>
+<li>使收藏视频功能变得更加丰富，提高了收藏操作的互动性。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[💻QQ音乐需求分析与整理]]></title>
+        <id>https://Ciel32.github.io/post/qq-yin-le-xu-qiu-fen-xi-yu-zheng-li/</id>
+        <link href="https://Ciel32.github.io/post/qq-yin-le-xu-qiu-fen-xi-yu-zheng-li/">
+        </link>
+        <updated>2020-12-01T09:55:09.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="一-产品名称">一、 产品名称</h3>
+<p>QQ音乐</p>
+<h3 id="二-数据来源">二、 数据来源</h3>
+<ul>
+<li>采集来源：七麦</li>
+<li>时间跨度：2020/9/22～2020/11/30</li>
+<li>版本跨度：iOS 10.3.9～10.6.0；Android 10.5.0.2～10.6.5.7</li>
+</ul>
+<h3 id="三-用户反馈采集">三、用户反馈采集</h3>
+<figure data-type="image" tabindex="1"><img src="https://Ciel32.github.io/post-images/1608199011750.png" alt="" loading="lazy"></figure>
+<h3 id="四-用户评论分析">四、用户评论分析</h3>
+<ul>
+<li>
+<p>问题一：付费歌曲太多，需要开通会员才能听歌。<br>
+问题分析：<br>
+对于歌曲付费表达出强烈不满的大多是免费用户，这类用户的需求是希望免费顺畅收听喜欢的歌曲。而这个问题出现的原因是QQ音乐部分付费歌曲包括一些冷门歌曲不支持试听，仅在付费后可以解锁收听，影响了免费用户的体验。这个问题属于体验类问题，用户反馈量较大，进行反馈的用户对产品评级多为一星，对产品口碑造成了影响。建议更改为可以完整试听歌曲的一节或是设置完整试听次数。</p>
+</li>
+<li>
+<p>问题二：新版本去掉了DTS功能。<br>
+问题分析：<br>
+提出这个问题的用户均为QQ音乐的付费用户，这类用户的需求是通过使用会员专享的DTS音效来定制个性化音效，提升听歌体验。出现这个问题的原因是更新后QQ音乐使用银河音效替代了DTS音效，而银河音效相较于DTS音效并没有提高用户的听歌体验，反而使绝大部分用户感受到体验降低。该问题属于功能类问题，由于反馈量大，且问题集中在付费用户群体，应给予足够的重视。建议在银河音效还不能完全取代DTS音效的阶段，为用户提供两个音效的选项，并且不断优化银河音效。</p>
+</li>
+<li>
+<p>问题三：想要听的歌曲没有版权。<br>
+问题分析：<br>
+反馈该问题的用户主要是QQ音乐的忠实用户，这类用户的需求是想要在QQ音乐畅听歌曲，对付费问题没有明确提出异议。出现这个问题的原因是QQ音乐虽然手握海量版权，但是难免会有一些歌曲版权被竞品抢先或者还没有涉猎。这是一个体验类问题，观察到进行问题反馈的用户对QQ音乐评级几乎在五星，说明他们对QQ音乐总体满意，解决版权问题则是锦上添花。建议持续加强音乐版权运营，定期收集用户对歌曲版权的反馈数据，逐步解决版权问题。</p>
+</li>
+<li>
+<p>问题四：没有和好友一起听的功能。<br>
+问题分析：<br>
+反馈该问题的用户有实时和朋友一起分享音乐的社交需求。这个需求的出现首先是因为互联网时代用户的社交需求逐渐上升，并且竞品网易云音乐已经开发了这个功能，得到了广大用户的喜爱。这是一个功能类问题，由于QQ音乐和网易云音乐是长期的强竞争关系，而QQ音乐的用户对该功能也有一定的需求，建议在之后更新的版本增加邀请朋友一起听歌的功能。</p>
+</li>
+</ul>
+<h3 id="五-需求池">五、需求池</h3>
+<figure data-type="image" tabindex="2"><img src="https://Ciel32.github.io/post-images/1608199020384.png" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[💻以尼尔森十大原则体验美团外卖]]></title>
+        <id>https://Ciel32.github.io/post/yi-ni-er-sen-shi-da-yuan-ze-ti-yan-mei-tuan-wai-mai/</id>
+        <link href="https://Ciel32.github.io/post/yi-ni-er-sen-shi-da-yuan-ze-ti-yan-mei-tuan-wai-mai/">
+        </link>
+        <updated>2020-11-28T09:59:14.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="一-产品信息">一、产品信息</h2>
+<p>产品名称：美团外卖<br>
+产品版本：7.47.2</p>
+<h2 id="二-以尼尔森十大可用性原则体验美团外卖">二、以尼尔森十大可用性原则体验「美团外卖」</h2>
+<h3 id="1-体验原则1状态可见原则">1. 体验原则1：状态可见原则</h3>
+<p>即用户能够通过某个标志知道自己正在做什么事情，一般来说产品需要给用户一定的反馈，防止用户使用出现错误。</p>
+<ul>
+<li>
+<p>场景案例一：用户完成支付<br>
+<img src="https://Ciel32.github.io/post-images/1608199649312.png" alt="" loading="lazy"><br>
+用户支付完成后，弹窗提示告诉用户”支付成功“，并且唤醒横幅通知用户预计送达时间。这个设计使得用户可以明确知道自己的订单是有效的，并且可以对送达时间有一个预期，提前做好准备。</p>
+</li>
+<li>
+<p>场景案例二：用户查看订单状态<br>
+<img src="https://Ciel32.github.io/post-images/1608199658652.png" alt="" loading="lazy"></p>
+</li>
+</ul>
+<p>无论是商家已接单，还是骑手赶往商家、骑手正在送货，用户可以在App内查看外卖送达之前的每一个状态，并根据时间距离的提示以及地图中自己与骑手的相对距离，更形象的感知外卖配送的进度。</p>
+<h3 id="2-体验原则2环境贴切原则">2. 体验原则2：环境贴切原则</h3>
+<p>即使用用户熟悉的语言文字来表达产品的信息。</p>
+<ul>
+<li>场景案例一：用户想要通过分类选择外卖<br>
+<img src="https://Ciel32.github.io/post-images/1608199668308.png" alt="" loading="lazy"></li>
+</ul>
+<p>当用户没有明确订餐目标的时候，会选择进入到分类中进行查看，根据外卖类别快速选择。当进入美团外卖的分类区域时，可以看到所有的分类名称都非常清晰明了，用词均不超过四个字，而不是使用一些比较花哨晦涩的名字，来对外卖分类进行命名，并且结合具有代表性的图片进行展示，方便用户进行快速选择。</p>
+<h3 id="3-体验原则3用户可控原则">3. 体验原则3：用户可控原则</h3>
+<p>由于用户时常会发生误触的行为，产品应该具备相应功能帮助用户退出。</p>
+<ul>
+<li>场景案例一：用户误触提交订单<br>
+<img src="https://Ciel32.github.io/post-images/1608199685963.png" alt="" loading="lazy"></li>
+</ul>
+<p>如果用户在还没有选择好食物的情况下，点击了“去结算”按钮，用户可以很方便的通过左上角的回退按钮返回选择食物的界面，而不是被迫付款，或需要退出app重新进入。</p>
+<h3 id="4-体验原则4一致性原则">4. 体验原则4：一致性原则</h3>
+<p>产品从视觉到语言都应该保持一致，也就是说对于用户而言，同样的文字、状态和按钮都应该触发相同的事情。</p>
+<ol>
+<li>操作一致性<br>
+<img src="https://Ciel32.github.io/post-images/1608199699930.png" alt="" loading="lazy"></li>
+</ol>
+<p>当用户在app内的不同tab间切换的时候，右上角始终是同一个小铃铛的图标，点击后都会进入消息中心的界面。</p>
+<ol start="2">
+<li>色彩一致性<br>
+<img src="https://Ciel32.github.io/post-images/1608199729630.png" alt="" loading="lazy"></li>
+</ol>
+<p>美团外卖的图标颜色和界面颜色都是黄色，包括其中的搜索栏和一些icon颜色也都是黄色，整体页面除了图片之外的有效信息都主要通过黑色、白色和黄色来呈现，保持了一致性。</p>
+<h3 id="5-体验原则5错误预防原则">5. 体验原则5：错误预防原则</h3>
+<p>在用户发生错误之前避免错误或在可能发生错误的情况下提醒用户。</p>
+<p>场景一：用户登录美团外卖<br>
+<img src="https://Ciel32.github.io/post-images/1608199753126.png" alt="" loading="lazy"></p>
+<p>当用户登录美团外卖时，如果输入的电话号码格式不正确，“获取短信验证码”按钮呈现灰色不可点击状态，只有当电话号码格式正确才会变成黄色可以点击的状态，防止用户犯错。</p>
+<h3 id="6-体验原则6识别好过记忆">6. 体验原则6：识别好过记忆</h3>
+<p>通过把组件、按钮及选项可见化，来降低用户的记忆负荷。软件的使用指南应该也是可见的，在合适的时候用户可以再次查看。</p>
+<ul>
+<li>场景案例一：用户第一次使用美团外卖填写收货地址<br>
+<img src="https://Ciel32.github.io/post-images/1608199761613.png" alt="" loading="lazy"></li>
+</ul>
+<p>当用户第一次填写收货地址，左上角会弹出一个小的对话框告诉用户可以点击这个按钮来切换城市，引导用户更方便快捷的进行地址的填写。</p>
+<h3 id="7-体验原则7灵活高效原则">7. 体验原则7：灵活高效原则</h3>
+<p>提高用户使用产品的效率。</p>
+<ul>
+<li>场景案例一：用户下单商品不满足起送价<br>
+<img src="https://Ciel32.github.io/post-images/1608199770134.png" alt="" loading="lazy"></li>
+</ul>
+<p>当用户所选择的商品不满足起送价的时候，“去凑单”按钮，美团外卖会自动选出满足凑单条件的最低价商品供用户选择。有了这个功能，只想凑单的用户就不需要再逐一查看商品列表手动挑选凑单商品了。</p>
+<ul>
+<li>场景案例二：用户同时下单多家外卖<br>
+<img src="https://Ciel32.github.io/post-images/1608199783531.png" alt="" loading="lazy"></li>
+</ul>
+<p>美团外卖提供了购物车功能。当用户需要同时下单多家外卖时，可以在商家列表页点击右下角的购物车进行一键结算。这样一来，用户就不需要进入每一个商家主页依次下单。</p>
+<ul>
+<li>场景案例三：用户想要下单之前点过的外卖<br>
+<img src="https://Ciel32.github.io/post-images/1608199790860.png" alt="" loading="lazy"></li>
+</ul>
+<p>当用户希望下单曾经点过的外卖时，可以进入订单界面，找到对应的历史订单并点击右下角的“再来一单”按钮，就可以下单相同的外卖。而不是通过搜索商家，寻找曾经点过的外卖进行点单。</p>
+<h3 id="8-体验原则8优美简约原则">8. 体验原则8：优美简约原则</h3>
+<p>产品中的内容应该去除不相关的信息或几乎不需要的信息。没有复杂的元素和配色。</p>
+<p>案例一：美团外卖的全部订单界面<br>
+<img src="https://Ciel32.github.io/post-images/1608199799875.png" alt="" loading="lazy"></p>
+<p>当用户进入美团外卖的全部订单界面时，所有的历史订单都以列表的形式排列，只展示商家图标、商家名、商品、价格等重要信息，简洁明了方便用户回溯。</p>
+<h3 id="9-体验原则9帮助用户认知-判断-修复错误">9. 体验原则9：帮助用户认知、判断、修复错误</h3>
+<p>用简洁的语言提示错误信息，告诉用户问题所在的同时，提供解决方案。</p>
+<ul>
+<li>场景案例一：用户从支付订单界面返回<br>
+<img src="https://Ciel32.github.io/post-images/1608199808312.png" alt="" loading="lazy"></li>
+</ul>
+<p>当用户在支付订单界面选择返回时，会出现弹窗提醒订单还没有支付，让用户二次确认是否离开，并且“确认离开“按钮的文字使用了相对”继续支付“更不显眼的灰色。如果用户是误触了返回按钮，这能帮助用户及时的作出反应。</p>
+<h3 id="10-体验原则10帮助与引导原则">10. 体验原则10：帮助与引导原则</h3>
+<p>产品提供引导和帮助用户的信息。</p>
+<p>场景案例一：“我的”界面上的帮助和客服<br>
+<img src="https://Ciel32.github.io/post-images/1608199818594.png" alt="" loading="lazy"></p>
+<p>当用户遇到问题没法自己解决的时候，可以通过“帮助与反馈”查看常见问题中是否能找到解决方案，或者进入“客服中心”与客服交流，以此来解决使用产品过程中的问题。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🎬<I Told Sunset About You> EP5 x MV截修]]></title>
         <id>https://Ciel32.github.io/post/IToldSunsetAboutYouEp5/</id>
@@ -54,6 +272,44 @@
 A Cute Girl👆</p>
 <p><img src="https://Ciel32.github.io/post-images/1606220772650.png" alt="" loading="lazy"><br>
 A Cute Boy👆</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📝Play Talk游戏聊天室]]></title>
+        <id>https://Ciel32.github.io/post/PlayTalk/</id>
+        <link href="https://Ciel32.github.io/post/PlayTalk/">
+        </link>
+        <updated>2020-05-17T09:33:25.000Z</updated>
+        <summary type="html"><![CDATA[<p>纪念一下<br>
+终于完成一件大事😆</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>纪念一下<br>
+终于完成一件大事😆</p>
+<!-- more -->
+<p>•┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈୨୧┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈•</p>
+<p><img src="https://Ciel32.github.io/post-images/1608197670281.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197677688.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197690224.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197697977.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197704207.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197709328.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197714512.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197719511.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197724445.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197730393.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197735444.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197740368.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197744691.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197749745.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197754089.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197759226.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197762968.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197767776.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197772169.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197777086.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197782053.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197786820.png" alt="" loading="lazy"><br>
+<img src="https://Ciel32.github.io/post-images/1608197791787.png" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
